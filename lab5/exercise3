@@ -1,0 +1,19 @@
+num1 = input("Enter first integer:")
+num2 = input("Enter second integer:")
+
+len_1 = len(num1)
+len_2 = len(num2)
+commons = 0
+checking = -1
+
+while True:
+    if num1[checking] == num2[checking]:
+        commons += 1
+    checking -= 1
+    len_1 -= 1
+    len_2 -= 1
+    if len_1 == 0 or len_2 == 0:
+        break
+
+print(commons)
+

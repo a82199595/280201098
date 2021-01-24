@@ -1,0 +1,17 @@
+books = ["ULYSSES","ANIMAL FARM","BRAVE NEW WORLD","ENDER'S GAME"]
+
+
+
+dict1 = {}
+value_list = []
+value_tuple = []
+
+for i in range(len(books)):
+  value_list.append(books[i])
+  value_tuple.append(books[i])
+
+value_tuple = tuple(value_tuple)
+
+
+print(value_tuple)
+print(value_list)

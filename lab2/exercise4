@@ -1,0 +1,4 @@
+celcius = int(input("enter a celcius dedgree: "))
+fahrenheit = celcius * 18 / 10 + 32
+
+print(fahrenheit)

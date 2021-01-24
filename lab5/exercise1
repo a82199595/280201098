@@ -1,0 +1,6 @@
+a = int(input("Enter an integer: "))
+b = 0
+result = a * b
+while b < 11:
+    print( a, " times", b, "is equal to", a*b)
+    b += 1

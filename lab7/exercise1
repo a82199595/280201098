@@ -1,0 +1,10 @@
+given_input = input("Write peoples name and age:")
+dict1 = dict()
+
+for name,age in given_input:
+  dict1.setdefault(name, []).append(age)
+
+for i in range(len(dict1)):
+  if name[age] >= 18:
+    print(name)
+  

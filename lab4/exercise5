@@ -1,0 +1,11 @@
+n = int(input("Enter a number: "))
+
+total = 1
+c = 1
+
+for element in range(0,n):
+    if n == 0:
+        print(total)
+    total = total * c
+    c += 1
+print(total)

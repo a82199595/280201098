@@ -1,0 +1,20 @@
+n = int(input("How many:"))
+c = []
+for i in range(0,n):
+    numbers = int(input("Enter a number: "))
+    c.append(numbers)
+    i += 1
+
+total = 0
+even = 0
+
+for even in range(0,n):
+    if c[even] % 2 == 0:
+        even += 1
+        total += 1
+    else:
+        pass
+print(total / n * 100, "%")
+
+
+

@@ -1,0 +1,6 @@
+length_first = int(input("Enter first length of triangle:"))
+length_sec = int(input("Enter second length of triangle:"))
+
+hypo = (length_first ** 2 + length_sec ** 2) ** 0.5
+hypo = int(hypo)
+print(hypo)

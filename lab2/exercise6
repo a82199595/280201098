@@ -1,0 +1,8 @@
+vel_a = 80
+vel_b = 70 
+distance = 490
+final_distance = 150
+time = (distance - final_distance) / (vel_a + vel_b)
+minutes = time * 60
+
+print(minutes)

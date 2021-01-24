@@ -1,0 +1,10 @@
+age = int(input("Enter your age:"))
+normal_ticket = 3 
+if age < 6:
+  print("it's free")
+elif age > 60:
+  print("it's free")
+elif age > 6 and age < 18:
+  print(normal_ticket * 50 / 100)
+else:
+  print(normal_ticket)

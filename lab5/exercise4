@@ -1,0 +1,10 @@
+password = "abc123"
+
+logging = input("Enter a password:")
+
+if logging == "help":
+    print(password[0])
+elif logging != password:
+    print("Wrong")
+else:
+    print("Welcome")
