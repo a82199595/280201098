@@ -1,0 +1,11 @@
+def hails(x):
+  if x == 1:
+    print(1)
+  elif x % 2 == 0:
+    print(x)
+    hails(x // 2)
+  else:
+    print(x)
+    hails(3 * x + 1)
+
+hails(5)

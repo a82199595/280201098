@@ -1,0 +1,9 @@
+e_mail = "ceng113@example.com"
+email_input = input("E mail: ")
+mail1 = email_input.lower()
+
+mail2 = mail1.replace(".","")
+if mail2== e_mail:
+print("True")
+else:
+print("Wrong")

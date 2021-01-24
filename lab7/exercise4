@@ -1,0 +1,17 @@
+employees = {}
+salarylist = []
+for i in range(5):
+  name = input("isim giriniz")
+  salary = int(input("maaş giriniz"))
+employees[name] = salary
+
+for i in employees:
+  x = 0
+  if employees[i] > x:
+    x = employees[i]
+    salarylist.append(x)
+
+salarylist = salarylist.sort
+
+for i in range(3):
+print(salarylist[i])
